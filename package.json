@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-we-server",
+  "version": "0.0.1",
+  "description": "Proyecto de web-server sencillo",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Daniel Gaviria",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "express": "^4.19.2"
+  }
+}
